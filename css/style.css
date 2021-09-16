@@ -294,7 +294,7 @@ color: white;
   margin: 0;
   list-style: none;
   display: flex;
-  background-color: #E0B765;
+  background-color: #B4984F;
   color: white;
   height: 50px;
   align-items: center;
@@ -303,6 +303,14 @@ color: white;
 .center { 
   justify-content: space-around; 
 }  
+
+.numbersdivmobile{
+  display: none;
+}
+
+.mobileplaces{
+  display: none;
+}
 
 @media only screen and (max-width: 600px) {
   .midcontent{
@@ -351,20 +359,22 @@ color: white;
   }
 
   .numbersdiv{
-    display: flex;
-    margin: 0 auto;
-  overflow-y: scroll;
-   
+    display: none;
   }
 
-  .country{
-    display: block;
+  .numbersdivmobile{
+    display: flex;
     margin: 0 auto;
-    margin-right: 40px;
+    justify-content: center;
+ 
+  }
+
+  .flex-container{
+    display: none;
   }
   
-  .text_minilogo{
-    text-align: center;
+  .mobileplaces{
+    display: flex
   }
 }
 
