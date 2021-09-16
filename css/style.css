@@ -154,7 +154,7 @@ margin-top: 20px;
 
 
   .landing{
-    background-image: url(../img/coverpage.jpg);
+    background-image: url(../img/Artboar.jpg);
   
 
     /* Full height */
@@ -183,12 +183,7 @@ margin-top: 20px;
     font-weight: 500;
   }
 
-  .minilogo{
-    filter: invert(1);
-     
-
-    
-  }
+  
 
   .sidelogotext{
   
@@ -217,6 +212,160 @@ margin-top: 20px;
   background-color: white;
   
   margin-right: 20px;
+}
+
+.midcontent{
+  padding-top: 170px;
+  text-align: center;
+}
+
+.worlddreamday{
+  font-family: 'Ambar Pearl Personal Use', sans-serif;
+  font-size:48px;        
+  color: #E0B765;                                     
+}
+
+.buildfuture{
+  color: white;
+  font-size: 36px;
+font-family: roboto;
+font-weight: bold;
+margin-bottom: 30px;
+}
+
+.dotted{
+  margin: 0 auto;
+  border: 2px rgba(255, 255, 255, 0.295) dotted;
+  width: 50%;
+  margin-bottom: 80px;
+}
+.global{
+
+  color: white;
+  font-size: 24px;
+font-family: roboto;
+font-weight: bold;
+}
+
+.date{
+  margin-top: -10px;
+  color: white;
+  font-size: 24px;
+font-family: roboto;
+font-weight: bold;
+}
+
+.jmac{
+  color: white;
+}
+
+.numbersdiv{
+  display: flex;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.country{
+  display: flex;
+  margin: 0 auto;
+}
+
+.minilogo{
+  filter: invert(1);
+  margin-right: 10px;
+}
+
+.text_minilogo{
+  text-align: left;
+}
+.actualnumber{
+  color: #E0B765;  
+  margin-bottom: -5px;
+  font-weight: bold;
+}
+.actualtext{
+color: white;
+
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  background-color: #E0B765;
+  color: white;
+  height: 50px;
+  align-items: center;
+}
+
+.center { 
+  justify-content: space-around; 
+}  
+
+@media only screen and (max-width: 600px) {
+  .midcontent{
+    padding-top: 120px;
+  }
+
+  .worlddreamday{
+    font-family: 'Ambar Pearl Personal Use', sans-serif;
+    font-size:24px;        
+    color: #E0B765;                                     
+  }
+
+  .buildfuture{
+    color: white;
+    font-size: 18px;
+  font-family: roboto;
+  font-weight: bold;
+  margin-bottom: 30px;
+  }
+  .dotted{
+    margin: 0 auto;
+    border: 2px rgba(255, 255, 255, 0.295) dotted;
+    width: 90%;
+    margin-bottom: 40px;
+  }
+
+  .global{
+
+    color: white;
+    font-size: 16px;
+  font-family: roboto;
+  font-weight: bold;
+  }
+
+  .date{
+    margin-top: -10px;
+    color: white;
+    font-size: 16px;
+  font-family: roboto;
+  font-weight: bold;
+  }
+
+  .jmac{
+    color: white;
+    font-size: 14px;
+  }
+
+  .numbersdiv{
+    display: flex;
+    margin: 0 auto;
+  overflow-y: scroll;
+   
+  }
+
+  .country{
+    display: block;
+    margin: 0 auto;
+    margin-right: 40px;
+  }
+  
+  .text_minilogo{
+    text-align: center;
+  }
 }
 
 
