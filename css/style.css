@@ -141,6 +141,7 @@ border: 1px solid #B4984F;
   background-image: url(../img/firstscroll.jpg);
   background-repeat: no-repeat;
   background-size: auto;
+  background-position: top;
 }
   .scroll_text{
 text-align: left;
@@ -216,4 +217,301 @@ margin-top: 20px;
   background-color: white;
   
   margin-right: 20px;
+}
+
+
+/* amarjeet's code */
+
+.footer-header {
+  text-align: left;
+  font: normal normal bold 30px/59px Roboto;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-top: 33px;
+}
+
+.footer-content {
+  text-align: left;
+  font: normal normal normal 21px/27px Roboto;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.partners {
+  background-image: url(../img/partners.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cards {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-top-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  opacity: 1;
+  backdrop-filter: blur(30px);
+  height: 200px;
+  width: 200px;
+  
+
+}
+
+.cardSubheading {
+  text-align: left;
+  font: normal normal normal 20px/24px Roboto;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-top: 10px;
+}
+
+#agenda {
+  text-align: center;
+font: normal normal bold 50px/61px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+padding-top: 30px;
+
+}
+
+.agenda {
+  background-image: url(../img/agendas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-max-width {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.agenda_button {
+  background-color: #B4984F;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  opacity: 1;
+  width: 120px;
+}
+
+.agenda_seection {
+  display: flex;
+  gap: 20px;
+  color: #fff
+}
+
+.agenda_text {
+  text-align: left;
+  font-size: 21px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+hr {
+  color: #fff;
+}
+
+#section2 {
+  display: none;
+}
+
+#section3 {
+  display: none;
+}
+
+#button1 {
+  background-color: #fff;
+  color: #051921;
+  border-color: #fff;
+  border-radius: 0;
+  width: 100px;
+}
+
+#button2 {
+  border-color: #fff;
+  border-radius: 0;
+  color: #fff;
+  width: 100px;
+}
+
+#button3 {
+  border-color: #fff;
+  border-radius: 0;
+  color: #fff;
+  width: 100px;
+}
+
+#agendaSelector {
+  display: inline-flex;
+  margin: 0 37%;
+}
+
+.speakers {
+
+  background-image: url(../img/overview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.speaker-img {
+  border-radius: 50%;
+  display: block;
+  margin: 5px auto
+}
+
+.name {
+  text-align: center;
+  letter-spacing: 0px;
+  color: #A7833A;
+}
+
+.details {
+  text-align: center;
+}
+
+.contact-img {
+  width: 90px;
+}
+
+.contact-head {
+  letter-spacing: 0px;
+  color: #FFD972;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.contact-content {
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#formSubmit {
+  padding: 10px 0px 10px 0px;
+width: 200px;
+height: 56px;
+background-color: #A7833A;
+color: #fff;
+display: block;
+margin: 25px auto;
+border-radius: 10px 0px;
+}
+.orangeStrip{
+height: 5px;
+width: 120px;
+display: block;
+margin: 0 auto;  
+background-color:#FFF ;  
+margin-top: 10px;
+margin-bottom: 30px;
+}
+.orangeStrips{
+height: 5px;
+width: 120px;
+display: block;
+margin: 0 auto;  
+background-color:#FFF ;  
+margin-top: 10px;
+margin-bottom: 30px;
+}
+.formSubmitSection{
+margin-top: 5%;
+padding-bottom: 5%;
+}
+#fullName{
+border: none;
+border-bottom: 2px solid #fff;
+background-color: #62747B;
+margin-left: 13%;
+width:460px
+}
+::placeholder {
+color: #fff;
+opacity: 1; /* Firefox */
+}
+.doubleForm{
+border: none;
+border-bottom: 2px solid #fff;
+background-color: #62747B;
+width:220px
+}
+.formCard{
+display: flex;justify-content: center;gap:90px;margin-top: 20px;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+.formCard{
+display: flex;justify-content: center;margin-top: 20px;
+gap: 0px;
+}
+#fullName{
+border: none;
+border-bottom: 2px solid #fff;
+background-color: #62747B;
+margin-left: 5%;
+width:90%
+
+}
+
+#agendaSelector{
+display: inline-flex;
+  margin: 0 10%;
+}
+.agenda_seection {
+  display: block;
+  gap: 20px;
+  color: #fff
+}
+.agenda_button{
+  font-size: 12px;
+  width: 100px;
+  height: 40px;
+  display: block;
+  margin: 10px auto;
+}
+.agenda_text{
+  text-align: center;
+  font-size: 16px;
+}
+.cards{
+  display: block;
+  margin: 10px auto;
+}
+.cardSubheading{
+  text-align: center;
+}
+.contact-content{
+  font-size: 15px;
+}
+.doubleForm{
+
+margin-left: -7%;
+border: none;
+border-bottom: 2px solid #fff;
+background-color: #62747B;
+width: 146px;
+
+}
+.formCardss{
+  margin-top: 20px;
+}
+
+
 }
