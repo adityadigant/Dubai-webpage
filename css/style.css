@@ -1,0 +1,89 @@
+.overview{
+    background: url(/img/overviewbg.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.overviewHeader{
+    color: white;
+    font-family: 'Roboto';
+  
+}
+
+
+.footer p {
+    display: inline-block;
+    position: relative;
+    margin-top: 138px;
+  }
+  
+  .footer p:after {
+    content: "";
+    height: 2px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+    
+  }
+  .overviewTextContent{
+      padding-bottom: 10px;
+  }
+.innertext{
+    color: white;
+    text-align: left;
+    height: 500px;
+    margin-left: 20px;
+    direction : ltr;
+    
+}
+
+
+.scrollbar
+{
+	margin-left: 30px;
+	float: left;
+	height: 500px;
+	width: 80%;
+	
+	overflow-y: scroll;
+	margin-bottom: 25px;
+    direction : rtl;
+}
+
+.force-overflow
+{
+	min-height: 450px;
+}
+
+
+#style-2::-webkit-scrollbar-track
+{
+	
+	border-radius: 10px;
+	background-color: #f5f5f544;
+    
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #f5f5f500;
+}
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	
+	background-color: #ffffff;
+}
+
+.readmore{
+    width: 193px;
+height: 54px;
+color: white;
+background-color: #B4984F;
+border-radius: 10px 0px;
+border: 1px solid #B4984F;
+}
