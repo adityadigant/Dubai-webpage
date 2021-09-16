@@ -146,6 +146,7 @@ border: 1px solid #B4984F;
 text-align: left;
 color: white;
 height: 100%;
+margin-top: 20px;
 
   }
 
@@ -208,3 +209,11 @@ height: 100%;
   font-weight: bold;
 }
   
+.divider{
+  border: 1px solid white;
+  height: 160px;
+  width: 2px;
+  background-color: white;
+  
+  margin-right: 20px;
+}
