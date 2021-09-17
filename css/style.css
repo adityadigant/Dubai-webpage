@@ -114,13 +114,14 @@ filter: invert(1);
   
   .footer p:after {
     content: "";
-    height: 2px;
+    height: 4px;
     width: 50%;
     background-color: rgb(255, 255, 255);
     position: absolute;
     bottom: -5px;
     left: 50%;
     transform: translate(-50%);
+    border-radius: 50px;
     
   }
   .overviewTextContent{
@@ -134,6 +135,7 @@ filter: invert(1);
     height: 500px;
     margin-left: 20px;
     direction : ltr;
+    margin-top: 40px;
     
 }
 
@@ -215,7 +217,7 @@ text-align: left;
 color: white;
 height: 100%;
 margin-top: 20px;
-font-size: 18px;
+font-size: 24px;
 
   }
 
@@ -267,12 +269,24 @@ font-size: 18px;
   
 .divider{
   border: 1px solid white;
-  height: 220px;
-  width: 2px;
+  height: 240px;
+  width: 4px;
+  border-radius: 50px;
   background-color: white;
   
-  margin-right: 20px;
+  margin-right: 50px;
+  margin-left: 10px;
 }
+
+.dividerup{
+  border: 1px solid white;
+  height: 100px;
+ 
+  background-color: white;
+  position: relative;
+ 
+}
+
 
 .midcontent{
   padding-top: 170px;
@@ -325,6 +339,7 @@ font-weight: bold;
   text-align: center;
   width: 90%;
   margin: 0 auto;
+  padding-bottom: 100px;
 }
 
 .country{
@@ -334,7 +349,9 @@ font-weight: bold;
 
 .minilogo{
   filter: invert(1);
-  margin-right: 10px;
+  margin-right: 14px;
+  position: relative;
+  top: 10px;
 }
 
 .text_minilogo{
@@ -343,6 +360,7 @@ font-weight: bold;
 .actualnumber{
   color: #E0B765;  
   margin-bottom: -5px;
+  font-size: 28px;
   font-weight: bold;
 }
 .actualtext{
@@ -357,8 +375,10 @@ color: white;
   display: flex;
   background-color: #B4984F;
   color: white;
-  height: 50px;
+  height: 70px;
   align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .center { 
@@ -483,6 +503,33 @@ and (max-width: 1024px) {
   .mobileplaces{
     display: flex
   }
+
+  .scroll_text{
+    text-align: left;
+    color: white;
+    height: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    
+      }
+
+      .highness{
+        font-size: 24px !important;
+      }
+      .eagle{
+        width: 100%;
+        height: 100%;
+      }
+      .divider{
+        border: 1px solid white;
+        height: 220px;
+        width: 4px;
+        border-radius: 50px;
+        background-color: white;
+        
+        margin-right: 20px;
+        
+      }
 }
 
 .flex-item{
@@ -672,16 +719,16 @@ hr {
   font-size: 20px;
   font-weight: normal;
 }
-
 #formSubmit {
   padding: 10px 0px 10px 0px;
-width: 200px;
-height: 56px;
-background-color: #A7833A;
-color: #fff;
-display: block;
-margin: 25px auto;
-border-radius: 10px 0px;
+  width: 200px;
+  height: 56px;
+  background-color: #A7833A;
+  color: #fff;
+  display: block;
+  margin: 25px auto;
+  border-radius: 10px 0px;
+  border-color: #A7833A;
 }
 .orangeStrip{
 height: 5px;
@@ -733,6 +780,13 @@ display: flex;justify-content: center;gap:90px;margin-top: 20px;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 600px) {
+  .unknown{
+    display: none;
+  }
+  .cardss {
+    margin-left: 0% !important;
+    width: 100% !important;
+}
   .social-icons{
     justify-content: center;
   }
@@ -750,7 +804,7 @@ border: none;
 border-bottom: 2px solid #fff;
 background-color: #62747B;
 margin-left: 5%;
-width:90%
+width:90% !important
 
 }
 
