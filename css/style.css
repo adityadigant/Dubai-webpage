@@ -5,6 +5,69 @@ body, html {
   overflow-x: hidden;
 }
 
+.icon-bar {
+  display: block;
+  position: fixed;
+  top: 50%;
+  right: 0px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 14px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 14px;
+  margin-bottom: -1px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+  color: white;
+}
+
+.facebook {
+  background: #B4984F;
+  color: white;
+  border-top-left-radius: 50%;
+  
+
+}
+
+.linkedin {
+  background: #B4984F;
+  color: white;
+}
+
+.youtube {
+  background: #B4984F;
+  color: white;
+}
+
+.instagram {
+  background: #B4984F;
+  color: white;
+  border-bottom-left-radius: 50%;
+  
+}
+
+@media screen 
+and (max-width: 1024px) {
+  .icon-bar{
+    display: none;
+  }
+}
+
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
 .uaelogo{
   margin-right: 20px;
 }
