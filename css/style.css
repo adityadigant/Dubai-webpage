@@ -2,6 +2,7 @@ body, html {
   height: 100%;
   margin: 0;
   font-style: roboto;
+  overflow-x: hidden;
 }
 
 .uaelogo{
@@ -22,7 +23,7 @@ filter: invert(1);
 }
 .navbarcustom{
   color: #ffffff;
-  background-color: #ffffff36;
+  background-color: #ffffff46;
 
  
 }
@@ -59,7 +60,9 @@ filter: invert(1);
     
   }
   .overviewTextContent{
+    display: block;
       padding-bottom: 10px;
+      height: 600px;
   }
 .innertext{
     color: white;
@@ -154,16 +157,8 @@ margin-top: 20px;
 
 
   .landing{
-    background-image: url(../img/Artboar.jpg);
+    background-color: rgb(33,33,33);
   
-
-    /* Full height */
-    height: 119%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     
   }
 
@@ -312,9 +307,25 @@ color: white;
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
+.overviewTextContentmobile{
+  display: none;
+}
+
+@media screen and (min-width: 360px) 
+and (max-width: 1024px) {
   .midcontent{
     padding-top: 120px;
+  }
+
+  .overviewTextContent{
+    display: none;
+  }
+
+  .overviewTextContentmobile{
+    display: block;
+    display: block;
+    padding-bottom: 10px;
+    height: 600px;
   }
 
   .worlddreamday{
@@ -377,6 +388,7 @@ color: white;
     display: flex
   }
 }
+
 
 
 /* amarjeet's code */
