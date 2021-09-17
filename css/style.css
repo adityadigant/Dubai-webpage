@@ -215,6 +215,7 @@ text-align: left;
 color: white;
 height: 100%;
 margin-top: 20px;
+font-size: 18px;
 
   }
 
@@ -266,7 +267,7 @@ margin-top: 20px;
   
 .divider{
   border: 1px solid white;
-  height: 160px;
+  height: 220px;
   width: 2px;
   background-color: white;
   
@@ -297,11 +298,12 @@ margin-bottom: 30px;
   border: 2px rgba(255, 255, 255, 0.295) dotted;
   width: 50%;
   margin-bottom: 80px;
+  padding: 20px;
 }
 .global{
 
   color: white;
-  font-size: 24px;
+  font-size: 28px;
 font-family: roboto;
 font-weight: bold;
 }
@@ -481,6 +483,10 @@ and (max-width: 1024px) {
   .mobileplaces{
     display: flex
   }
+}
+
+.flex-item{
+  font-size: 24px;
 }
 
 
@@ -793,3 +799,13 @@ width: 146px;
 
 
 }
+
+.innertext{
+  color: white;
+  text-align: justify;
+  height: 500px;
+  margin-left: 20px;
+  direction : ltr;
+  
+}
+
