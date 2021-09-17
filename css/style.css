@@ -23,9 +23,9 @@ filter: invert(1);
 }
 .navbarcustom{
   color: #ffffff;
-  background-color: #ffffff46;
-
- 
+  background-color: #ffffff49;
+  z-index: 99;
+  backdrop-filter: blur(10px)
 }
 
 .overview{
